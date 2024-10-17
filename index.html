@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <!-- CSS -->
+     <link rel="stylesheet" href="style.css">
+     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Sixtyfour+Convergence&display=swap');
+        </style>
+     <!-- JS -->
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <h3>EBAC</h3>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Seja bem vindo ao nosso E-commerce de JavaScript</h1>
+            <p>Encontre aqui o seu produto</p>
+            <button>Compre agora!</button>
+        </section>
+
+        <section class="produtos">
+            <h2>Produtos em destaque</h2>
+            <div class="produtos-grid">
+                <!-- Produtos via JS -->
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Carrinho de compras</h2>
+            <table>
+                <thread>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Quantidade</th>
+                        <th>Preço</th>
+                        <th>Subtotal</th>
+                    </tr>
+                </thread>
+                <tbody>
+                    <!-- Itens carrinho JS -->
+                </tbody>
+            </table>
+            <p>Total: <span id="total">R$0.00</span></p>
+            <button id="checkout">Pagar</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2024 EBAC Ecommerce v1</p>
+    </footer>
+</body>
+</html>
